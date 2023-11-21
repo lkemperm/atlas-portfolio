@@ -1,0 +1,21 @@
+.block {
+    color: "black";
+    background-color: var(--block-color);
+    /* border: 12px solid var(--accent); */
+    margin: auto;
+    text-align: left;
+    width: auto;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
+    font-family: 'Josefin Sans' !important;
+    font-size: 2.3rem !important
+}
+
+.css-n2itgq-MuiTypography-root-MuiTimelineOppositeContent-root {
+    font-family: 'Josefin Sans' !important;
+    color: white !important;
+    font-size: 2.3rem !important;
+}

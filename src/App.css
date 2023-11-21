@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.flex-row-container {
+  display: 'flex';
+  flex-direction: 'row';
+  align-items: 'flex-start';
+}
+
+.flex-row-container>item {
+  align-self: 'center';
+  width: 100%;
+}
+
+.App {
+  color: var(--text-primary);
+  background-color: var(--background);
+  font-family: 'Josefin Sans';
+  font-size: large;
+  font-weight: bold;
+  padding: 20px;
+  width: 100vw;
+  min-height: 100vh;
+  /* height: calc(100vh - 40px); */
+  transition: all .5s;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+  margin: auto;
+}
+
+svg-container {
+  resize: both;
+  overflow: auto;
+  min-height: 800px;
+  display: flex;
+  /* height: 100%;
+  width: 100%; */
+}
+
+
+
+
+
+svg {
+  width: 800px;
+
+  display: block;
+  height: auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+svg:hover {
+  stroke-width: 0.5;
+  /* fill: #7be3f6;
+  fill-opacity: 1; */
+}
+
+
+/*
+Russian blue pattern:
+#7be3f6
+#4499a9
+#276a76
+#133b43
+#03090a
+*/
+svg g {
+  fill: var(--background);
+  fill-opacity: 1;
+}
+
+svg g:hover {
+  stroke-width: 0.5;
+  /* fill: #7be3f6;
+  fill-opacity: 1; */
+}
+
+svg g:hover text {
+  fill-opacity: 1;
+}
+
+svg g polygon {
+  stroke: #c7b706;
+  stroke-width: 0.2;
+  /* transition: fill-opacity .5s; */
+}
+
+svg g polygon:hover {
+  stroke-width: 1;
+}
+
+svg g text {
+  font-size: 0.15em;
+  fill: black;
+  fill-opacity: 0.7;
+  transition: fill-opacity .5s;
+}
+
+svg path {
+  fill: none;
+  stroke: #7be3f6;
+  stroke-width: 0.2em;
+  stroke-opacity: 0.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.project_details {
+  position: absolute;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  max-height: 150px;
+  left: 0%;
+  z-index: 999;
+  background: white;
+  padding: 10px;
+  border: 1px solid grey;
+  box-shadow: 0 0 2px 2px grey;
+}
+
+.project_details__wrapper {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}

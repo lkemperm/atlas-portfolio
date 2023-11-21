@@ -1,0 +1,31 @@
+.card {
+    color: var(--background);
+    background-color: var(--card-color);
+    border: 3px solid var(--secondary);
+    text-align: left;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    flex: 1;
+
+}
+
+.modal {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 650;
+    background-color: var(--background);
+    font-family: 'Josefin Sans';
+    border: '2px solid #000';
+    box-shadow: 24;
+
+}

@@ -1,0 +1,66 @@
+[
+    {
+        "name": "CityEngagement",
+        "image": "https://bouldersbdc.com/wp-content/uploads/sites/2/2023/07/city-of-boulder-black-web-2048x1152.png",
+        "year": "2023",
+        "rIndex": 0,
+        "sIndex": 1,
+        "qIndex": -2,
+        "description": "An ATLAS class project to help city of Boulder residents engage with and stay up to date with city planning proposals."
+    },
+    {
+        "name": "GetYourRefund",
+        "image": "https://files.codeforamerica.org/2021/05/28124702/getyourrefund-illustration.svg",
+        "year": "2022",
+        "rIndex": -1,
+        "sIndex": 1,
+        "qIndex": 0,
+        "description": "A free, open-source E-Filing software product I contributed to at Code for America. This product enables low-income individuals file for taxes by providing a free, simple and reliable tool that also connects people to live assistance through the VITA program. The tax program area at CfA is now focused on expanding state and federal E-Filing tools.",
+        "link": ""
+    },
+    {
+        "name": "LouisianaDigitalAssister",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Seal_of_Louisiana.svg",
+        "year": "2023",
+        "rIndex": 0,
+        "sIndex": 1,
+        "qIndex": -1,
+        "description": "An integrated benefits application and document uploader that I built at Code for America for the State of Louisiana. This app makes applying for public benefits, such as SNAP, WIC, and ECE easier, faster and more accessible for clients in Louisiana."
+    },
+    {
+        "name": "Skout",
+        "image": "https://iterative.health/wp-content/uploads/2023/07/SKOUT_On_Screen-2-2048x1454.png",
+        "year": "2023",
+        "rIndex": 0,
+        "sIndex": 0,
+        "qIndex": 0,
+        "description": "A real-time polyp detection system that I helped develop with a small core team at Iterative Health which helps physicians identify and localize polyps in real-time during colonoscopy procedures. The use of Skout has been shown in the largest-scale clinical trial with AI in medicine yet to improve outcomes for patients, and has been approved by the FDA."
+    },
+    {
+        "name": "Visium",
+        "image": "https://cdn.10xgenomics.com/image/upload/f_auto,q_auto,dpr_auto,w_1000/v1654560073/products/FFPE_Hero_V2_RGB.png",
+        "year": "2022",
+        "rIndex": 1,
+        "sIndex": 0,
+        "qIndex": -1,
+        "description": "A spatial-sequencing product based on fluorescence in-situ sequencing technology (FISSEQ) that I developed software and algorithms for at ReadCoor / 10x genomics. The technology platform was commercialized in 2022 by 10x genomics."
+    },
+    {
+        "name": "Eclipse",
+        "image": "https://www.bruker.com/en/applications/academia-life-science/metabolomics/_jcr_content/teaserImage.coreimg.jpeg/1604076652498/metabolomics-teaser.jpeg",
+        "year": "2021",
+        "rIndex": 0,
+        "sIndex": -1,
+        "qIndex": 1,
+        "description": "An internal software platform that I conceptualized and developed at Matterworks to automate and track various aspects of experimentation in the lab, including protocols which were run by wet-lab instruments. Eclipse helped us develop complex datasets for downstream machine learning tasks."
+    },
+    {
+        "name": "miRcomp",
+        "image": "https://www.bio-rad.com/webroot/web/images/lsr/solutions/technologies/gene_expression/qPCR_real-time_PCR/technology_detail/real-time-qpcr-workflow.jpg",
+        "year": "2017",
+        "rIndex": -1,
+        "sIndex": 0,
+        "qIndex": 1,
+        "description": "A web application for assessing and comparing microRNA expression estimation data and algorithms, and associated publication that I authored at the University of Rochester Medical Center."
+    }
+]
