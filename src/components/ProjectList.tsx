@@ -45,7 +45,7 @@ const ProjectList = (props: { projects: any; }) => {
 
     const createProjects = () => {
         const { projects } = props;
-        return <div style={{ display: 'flex', flexWrap: 'wrap', overflow: 'hidden', alignItems: 'center', padding: '5rem' }}>
+        return <div style={{ display: 'flex', flexWrap: 'wrap', overflow: 'hidden', alignItems: 'center', padding: '2.5rem' }}>
             {
                 <div>{
                     <HexGrid viewBox="-45 -40 75 75" width={"100%"} className='svg-container'>{
@@ -78,7 +78,7 @@ const ProjectList = (props: { projects: any; }) => {
             <div>
                 <Box component="section" sx={{
                     backgroundColor: '#cab99d',
-                    p: 2, border: '1px dashed grey', width: 600, height: 600, textOverflow: 'wrap', overflow: 'wrap', textAlign: 'center', fontSize: '2rem'
+                    p: 2, border: '1px dashed grey', width: 600, height: 600, textOverflow: 'wrap', overflow: 'wrap', textAlign: 'center', fontSize: '1rem'
                 }}>
                     <div style={{ color: "rgba(17, 9, 2, 0.658)" }}>
                         {getSelectedProjectDetails()}

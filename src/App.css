@@ -36,7 +36,7 @@
 svg-container {
   resize: both;
   overflow: auto;
-  min-height: 800px;
+  min-height: 600px;
   display: flex;
   /* height: 100%;
   width: 100%; */
@@ -47,7 +47,7 @@ svg-container {
 
 
 svg {
-  width: 800px;
+  width: 550px;
 
   display: block;
   height: auto;
