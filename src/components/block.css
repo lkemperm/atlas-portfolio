@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
 .block {
     color: "black";
     background-color: var(--block-color);
@@ -7,6 +9,19 @@
     width: auto;
     box-sizing: border-box;
     padding: 30px;
+}
+
+.css-16ut1rm {
+
+    font-family: 'Josefin Sans' !important;
+    color: white !important;
+    font-size: 1.5rem !important;
+
+}
+
+.css-7p547w {
+    font-family: 'Josefin Sans' !important;
+    font-size: 1.5rem !important
 }
 
 .css-18y2uza-MuiTypography-root-MuiTimelineContent-root {
