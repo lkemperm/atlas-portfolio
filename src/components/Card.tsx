@@ -1,6 +1,12 @@
-import React from 'react';
 import './card.css'
-import Projects from './Projects'
+import '../App.css';
+import './block.css'
+import PersonalTimeline from './PersonalTimeline';
+
+import ProjectList from './ProjectList';
+import React from "react";
+import projectList from '../projectList.json';
+import timelineItems from '../timelineItems.json';
 
 
 const Card = () => {
@@ -8,13 +14,12 @@ const Card = () => {
 
     return (
         <div className='card'>
-            <div style={{
-                display: 'flex', justifyContent: 'space-between', alignItems: 'center', overflow: 'hidden', flexWrap: 'wrap'
-            }}>
-                <div>
-                    <Projects />
+            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', boxSizing: 'border-box', flexWrap: 'wrap' }}>
+                <div style={{ alignSelf: 'center' }}>
+                    <PersonalTimeline timelineItems={timelineItems}></PersonalTimeline>
                 </div>
-            </div>
+                <ProjectList projects={projectList}></ProjectList>
+            </div >
         </div >
     )
 }

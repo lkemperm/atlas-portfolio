@@ -1,0 +1,19 @@
+[
+    {
+        "year": 2017,
+        "contents": "Graduated from University of Rochester"
+    },
+    {
+        "year": 2018,
+        "contents": "Started Healthcare + Tech Career"
+    },
+    {
+        "year": 2022,
+        "contents": "Journey into Civic Tech"
+    },
+    {
+        "year": 2023,
+        "contents": "Started Graduate School @ CU Boulder",
+        "addConnector": false
+    }
+]

@@ -9,6 +9,8 @@ const Project = (props:
         rIndex: any,
         sIndex: any,
         name: string,
+        id: string,
+        links: any,
         setSelectedIndex: (arg0: any) => any
     }) => {
     const [selected, setSelected] = useState(false);
@@ -35,7 +37,7 @@ const Project = (props:
     }, [props.selectedIndex]);
 
     return (
-        <Hexagon style={styles} q={props.qIndex} r={props.rIndex} s={props.sIndex} fill={props.name}
+        <Hexagon style={styles} q={props.qIndex} r={props.rIndex} s={props.sIndex} fill={props.id}
             onClick={() => props.setSelectedIndex(props.projectIndex)}
         />
     );

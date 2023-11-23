@@ -5,7 +5,6 @@ import Homepage from './App';
 import reportWebVitals from './reportWebVitals';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Projects from './components/Projects'
 
 // const root = ReactDOM.createRoot(
 //   document.getElementById('root') as HTMLElement
@@ -15,7 +14,6 @@ ReactDOM.render(
   <Router>
     <Routes>
       <Route path="/" Component={Homepage}></Route>
-      <Route path="/projects" Component={Projects} />
     </Routes>
     {/* <App /> */}
   </Router>,

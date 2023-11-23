@@ -1,66 +1,161 @@
 [
     {
-        "name": "CityEngagement",
+        "id": "ATLS",
+        "name": "Boulder Community Engagement",
         "image": "https://bouldersbdc.com/wp-content/uploads/sites/2/2023/07/city-of-boulder-black-web-2048x1152.png",
         "year": "2023",
         "rIndex": 0,
         "sIndex": 1,
         "qIndex": -2,
-        "description": "An ATLAS class project to help city of Boulder residents engage with and stay up to date with city planning proposals."
+        "description": "An ATLAS class project to help city of Boulder residents engage with and stay up to date with city planning proposals.",
+        "additionalImages": [],
+        "links": []
     },
     {
-        "name": "GetYourRefund",
+        "id": "GYR",
+        "name": "Get Your Refund",
         "image": "https://files.codeforamerica.org/2021/05/28124702/getyourrefund-illustration.svg",
         "year": "2022",
         "rIndex": -1,
         "sIndex": 1,
         "qIndex": 0,
         "description": "A free, open-source E-Filing software product I contributed to at Code for America. This product enables low-income individuals file for taxes by providing a free, simple and reliable tool that also connects people to live assistance through the VITA program. The tax program area at CfA is now focused on expanding state and federal E-Filing tools.",
-        "link": ""
+        "additionalImages": [],
+        "links": [
+            {
+                "title": "Code for America Tax Program",
+                "url": "https://codeforamerica.org/programs/tax-benefits/getyourrefund/"
+            },
+            {
+                "title": "Website",
+                "url": "https://www.getyourrefund.org/en"
+            },
+            {
+                "title": "Github Codebase",
+                "url": "https://github.com/codeforamerica/vita-min"
+            }
+        ]
     },
     {
-        "name": "LouisianaDigitalAssister",
+        "id": "LA",
+        "name": "Louisiana Digital Assister",
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Seal_of_Louisiana.svg",
         "year": "2023",
         "rIndex": 0,
         "sIndex": 1,
         "qIndex": -1,
-        "description": "An integrated benefits application and document uploader that I built at Code for America for the State of Louisiana. This app makes applying for public benefits, such as SNAP, WIC, and ECE easier, faster and more accessible for clients in Louisiana."
+        "description": "An integrated benefits application and document uploader that I built at Code for America for the State of Louisiana. This app makes applying for public benefits, such as SNAP, WIC, and ECE easier, faster and more accessible for clients in Louisiana.",
+        "additionalImages": [],
+        "links": [
+            {
+                "title": "Code for America Safety Net Program",
+                "url": "https://codeforamerica.org/programs/social-safety-net/"
+            },
+            {
+                "title": "Louisiana Document Uploader",
+                "url": "https://www.staging.benefitslouisiana.org/"
+            },
+            {
+                "title": "Louisiana Digital Assister",
+                "url": "https://www.staging.benefitslouisiana.org/flow/laDigitalAssister/howThisWorks"
+            }
+        ]
     },
     {
+        "id": "SKT",
         "name": "Skout",
         "image": "https://iterative.health/wp-content/uploads/2023/07/SKOUT_On_Screen-2-2048x1454.png",
         "year": "2023",
         "rIndex": 0,
         "sIndex": 0,
         "qIndex": 0,
-        "description": "A real-time polyp detection system that I helped develop with a small core team at Iterative Health which helps physicians identify and localize polyps in real-time during colonoscopy procedures. The use of Skout has been shown in the largest-scale clinical trial with AI in medicine yet to improve outcomes for patients, and has been approved by the FDA."
+        "description": "A real-time polyp detection system that I helped develop with a small core team at Iterative Health which helps physicians identify and localize polyps in real-time during colonoscopy procedures. The use of Skout has been shown in the largest-scale clinical trial with AI in medicine yet to improve outcomes for patients, and has been approved by the FDA.",
+        "additionalImages": [],
+        "links": [
+            {
+                "title": "Skout product information",
+                "url": "https://iterative.health/products/skout/"
+            },
+            {
+                "title": "Skout FDA clearance announcement",
+                "url": "https://www.businesswire.com/news/home/20220922005730/en/Iterative-Scopes-Receives-FDA-Clearance-for-AI-Assisted-Polyp-Detection-Device-SKOUT%E2%84%A2"
+            }
+        ]
     },
     {
-        "name": "Visium",
+        "id": "VIS",
+        "name": "Visium Spatial Gene Expression",
         "image": "https://cdn.10xgenomics.com/image/upload/f_auto,q_auto,dpr_auto,w_1000/v1654560073/products/FFPE_Hero_V2_RGB.png",
         "year": "2022",
         "rIndex": 1,
         "sIndex": 0,
         "qIndex": -1,
-        "description": "A spatial-sequencing product based on fluorescence in-situ sequencing technology (FISSEQ) that I developed software and algorithms for at ReadCoor / 10x genomics. The technology platform was commercialized in 2022 by 10x genomics."
+        "description": "A spatial-sequencing product based on fluorescence in-situ sequencing technology (FISSEQ) that I developed software and algorithms for at ReadCoor / 10x genomics. The technology platform was commercialized in 2022 by 10x genomics.",
+        "additionalImages": [],
+        "links": [
+            {
+                "title": "Visium product information",
+                "url": "https://www.10xgenomics.com/products/spatial-gene-expression?utm_medium=search&utm_source=google&utm_campaign=sem-goog-2022-website-page-ra_g-brand-mixed-apac&useroffertype=website-page&userresearcharea=ra_g&userregion=apac&userrecipient=customer&usercampaignid=7011P0000015V8MQAU&gad_source=1&gclid=Cj0KCQiA6vaqBhCbARIsACF9M6klxK04JfjfWVP-IVs5g59_qsiLVjROr4nd4MS-ssUKHS051GNEmKQaAoIhEALw_wcB&gclsrc=aw.ds"
+            },
+            {
+                "title": "FISSEQ technology overview",
+                "url": "https://wyss.harvard.edu/technology/fluorescent-in-situ-sequencing-fisseq/"
+            }
+        ]
     },
     {
+        "id": "ECL",
         "name": "Eclipse",
         "image": "https://www.bruker.com/en/applications/academia-life-science/metabolomics/_jcr_content/teaserImage.coreimg.jpeg/1604076652498/metabolomics-teaser.jpeg",
         "year": "2021",
         "rIndex": 0,
         "sIndex": -1,
         "qIndex": 1,
-        "description": "An internal software platform that I conceptualized and developed at Matterworks to automate and track various aspects of experimentation in the lab, including protocols which were run by wet-lab instruments. Eclipse helped us develop complex datasets for downstream machine learning tasks."
+        "description": "An internal software platform that I conceptualized and developed at Matterworks to automate and track various aspects of experimentation in the lab, including protocols which were run by wet-lab instruments. Eclipse helped us develop complex datasets for downstream machine learning tasks. This effort was critical to enable product development for the flagship Pyxis product at Matterworks.",
+        "additionalImages": [],
+        "links": [
+            {
+                "title": "Matterworks Pyxis product description",
+                "url": "https://www.matterworksbio.com/products"
+            },
+            {
+                "title": "Matterworks NIMBL grant announcement",
+                "url": "https://niimbl.my.site.com/s/news/a0a3u00000Aglx2AAB/niimbl-announces-158m-to-fund-14-new-biopharmaceutical-manufacturing-projects?mc_cid=c72bdd8bf0&mc_eid=0708f2a883"
+            }
+        ]
     },
     {
-        "name": "miRcomp",
+        "id": "MiRCOMP",
+        "name": "miRcomp-Shiny",
+        "links": [
+            {
+                "title": "miRcomp-Shiny Web Application",
+                "url": "https://laurenkemperman.shinyapps.io/mircomp/"
+            },
+            {
+                "title": "Software Tool Article",
+                "url": "https://f1000research.com/articles/6-2046"
+            }
+        ],
         "image": "https://www.bio-rad.com/webroot/web/images/lsr/solutions/technologies/gene_expression/qPCR_real-time_PCR/technology_detail/real-time-qpcr-workflow.jpg",
         "year": "2017",
         "rIndex": -1,
         "sIndex": 0,
         "qIndex": 1,
-        "description": "A web application for assessing and comparing microRNA expression estimation data and algorithms, and associated publication that I authored at the University of Rochester Medical Center."
+        "description": "A web application for assessing and comparing microRNA expression estimation data and algorithms, and associated publication that I authored at the University of Rochester Medical Center.",
+        "additionalImages": [
+            {
+                "img": "https://www.bio-rad.com/webroot/web/images/lsr/solutions/technologies/gene_expression/qPCR_real-time_PCR/technology_detail/real-time-qpcr-workflow.jpg",
+                "title": "qPCR graphic"
+            },
+            {
+                "img": "https://f1000research.s3.amazonaws.com/manuscripts/14205/1508698a-8152-4b41-b207-31a3fe290476_figure1.gif",
+                "title": "miRcomp Screenshot"
+            },
+            {
+                "img": "data:image/jpeg;base64,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",
+                "title": "miRcomp flowchart"
+            }
+        ]
     }
 ]
