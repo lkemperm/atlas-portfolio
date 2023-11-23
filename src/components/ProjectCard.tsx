@@ -12,8 +12,15 @@ const ProjectCard = (props:
 
         return (
             <Box sx={{ display: 'flex', justifyContent: 'center' }}>
-                <Card style={{ width: '50%' }}>
-                    <CardMedia
+                <Card style={{
+                    width: 300,
+                    margin: 'auto'
+                }}>
+                    <CardMedia style={{
+                        height: '100%',
+                        width: '100%',
+                        objectFit: 'cover'
+                    }}
                         component="img"
                         image={props.item.img}
                         title={props.item.title}

@@ -14,10 +14,8 @@ const Card = () => {
 
     return (
         <div className='card'>
-            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', boxSizing: 'border-box', flexWrap: 'wrap' }}>
-                <div style={{ alignSelf: 'center' }}>
-                    <PersonalTimeline timelineItems={timelineItems}></PersonalTimeline>
-                </div>
+            <div style={{ display: 'inline-block', flexDirection: 'row', alignItems: 'flex-start', boxSizing: 'border-box', flexWrap: 'wrap' }}>
+                <PersonalTimeline timelineItems={timelineItems}></PersonalTimeline>
                 <ProjectList projects={projectList}></ProjectList>
             </div >
         </div >

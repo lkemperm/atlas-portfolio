@@ -7,7 +7,7 @@
         "rIndex": 0,
         "sIndex": 1,
         "qIndex": -2,
-        "description": "An ATLAS class project to help city of Boulder residents engage with and stay up to date with city planning proposals.",
+        "description": "An ATLAS class project to help city of Boulder residents engage with and stay up to date with city planning proposals. My project team conducted research on digital community engagement, designed a survey for the broader Boulder community, created design elements and wireframes, and are meeting with City Planners from Boulder to discuss our approach. More to come, soon!",
         "additionalImages": [],
         "links": []
     },
@@ -45,7 +45,16 @@
         "sIndex": 1,
         "qIndex": -1,
         "description": "An integrated benefits application and document uploader that I built at Code for America for the State of Louisiana. This app makes applying for public benefits, such as SNAP, WIC, and ECE easier, faster and more accessible for clients in Louisiana.",
-        "additionalImages": [],
+        "additionalImages": [
+            {
+                "img": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Seal_of_Louisiana.svg",
+                "title": "Seal of Louisiana"
+            },
+            {
+                "img": "https://miro.medium.com/v2/resize:fit:1400/0*hj0LE2p3x3QxtcmR",
+                "title": "CfA integrated benefits"
+            }
+        ],
         "links": [
             {
                 "title": "Code for America Safety Net Program",
@@ -70,7 +79,16 @@
         "sIndex": 0,
         "qIndex": 0,
         "description": "A real-time polyp detection system that I helped develop with a small core team at Iterative Health which helps physicians identify and localize polyps in real-time during colonoscopy procedures. The use of Skout has been shown in the largest-scale clinical trial with AI in medicine yet to improve outcomes for patients, and has been approved by the FDA.",
-        "additionalImages": [],
+        "additionalImages": [
+            {
+                "img": "https://iterative.health/wp-content/uploads/2023/07/SKOUT_On_Screen-2-2048x1454.png",
+                "title": "Skout graphic"
+            },
+            {
+                "img": "https://iterative.health/wp-content/uploads/2023/04/SKOUT_WebGraphics_April23_Update_V1_2500V2.png",
+                "title": "Skout by the numbers"
+            }
+        ],
         "links": [
             {
                 "title": "Skout product information",
@@ -91,7 +109,20 @@
         "sIndex": 0,
         "qIndex": -1,
         "description": "A spatial-sequencing product based on fluorescence in-situ sequencing technology (FISSEQ) that I developed software and algorithms for at ReadCoor / 10x genomics. The technology platform was commercialized in 2022 by 10x genomics.",
-        "additionalImages": [],
+        "additionalImages": [
+            {
+                "img": "https://cdn.10xgenomics.com/image/upload/f_auto,q_auto,dpr_auto,w_1000/v1654560073/products/FFPE_Hero_V2_RGB.png",
+                "title": "visium spatial"
+            },
+            {
+                "img": "https://cdn.10xgenomics.com/image/upload/v1646160698/support/spatial-workflow.png",
+                "title": "Spatial workflow"
+            },
+            {
+                "img": "https://www.insideprecisionmedicine.com/wp-content/uploads/2020/10/RC2-Product-Card2-1024x920-1.png",
+                "title": "ReadCoor RC2 instrument"
+            }
+        ],
         "links": [
             {
                 "title": "Visium product information",
@@ -112,7 +143,16 @@
         "sIndex": -1,
         "qIndex": 1,
         "description": "An internal software platform that I conceptualized and developed at Matterworks to automate and track various aspects of experimentation in the lab, including protocols which were run by wet-lab instruments. Eclipse helped us develop complex datasets for downstream machine learning tasks. This effort was critical to enable product development for the flagship Pyxis product at Matterworks.",
-        "additionalImages": [],
+        "additionalImages": [
+            {
+                "img": "https://www.bruker.com/en/applications/academia-life-science/metabolomics/_jcr_content/teaserImage.coreimg.jpeg/1604076652498/metabolomics-teaser.jpeg",
+                "title": "Metabolomics graphic"
+            },
+            {
+                "img": "https://www.matterworksbio.com/hs-fs/hubfs/Pathway.png?width=400&height=398&name=Pathway.png",
+                "title": "Pyxis Diagram"
+            }
+        ],
         "links": [
             {
                 "title": "Matterworks Pyxis product description",
