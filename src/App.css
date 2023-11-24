@@ -88,8 +88,8 @@ svg g text {
 }
 
 svg path {
-  fill: none;
-  stroke: #7be3f6;
+  fill: var(--dark-brown);
+  stroke: var(--dark-brown);
   stroke-width: 0.2em;
   stroke-opacity: 0.7;
   stroke-linecap: round;
@@ -126,8 +126,64 @@ span:empty:before {
   content: "";
 }
 
-.project-card {
+
+hr {
+  width: 90%;
+  stroke-width: 5rem;
+  align-content: center;
+  color: var(--dark-brown);
+  margin: auto;
+}
+
+.fa-icon {
+  width: 500;
+  height: 500;
+}
+
+.icon-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 90%;
+  padding: 0px;
+  margin: auto;
+}
+
+.project-card-content {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-evenly;
+  /* flex-shrink: 1 0 auto; */
+}
+
+/* 
+.one {
+  flex: 1 1 0;
+}
+
+.two {
+  flex: 1 1 0;
+}
+
+.three {
+  flex: 2 1 0;
+} */
+
+/* .project-card-content>* {
+  flex: 1 auto 0;
+} */
+
+.hexgrid {
+  flex: 1 auto 0;
+  min-width: 450px;
+}
+
+.timeline {
+  flex: 1 auto 0;
+}
+
+.project-details {
+  flex: 1 auto 0;
 }

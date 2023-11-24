@@ -17,9 +17,9 @@ const ProjectCard = (props:
                     margin: 'auto'
                 }}>
                     <CardMedia style={{
-                        height: '100%',
+                        height: 250,
                         width: '100%',
-                        objectFit: 'cover'
+                        objectFit: 'contain'
                     }}
                         component="img"
                         image={props.item.img}
@@ -37,7 +37,7 @@ const ProjectCard = (props:
             <div style={{ paddingBottom: '2rem', display: 'flex', justifyContent: 'space-evenly', flexWrap: 'wrap', paddingInlineStart: 0 }}>
                 {project.links.map((link: any) => (
                     <span style={{ display: 'inline-block' }}>
-                        <a href={link.url} target="_blank">{link.title}</a>
+                        <a href={link.url} target="_blank" rel="noreferrer">{link.title}</a>
                     </span>
                 ))}
             </div>

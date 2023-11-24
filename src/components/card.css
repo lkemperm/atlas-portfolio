@@ -15,17 +15,3 @@
     min-width: 150px;
     overflow: hidden;
 }
-
-.modal {
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 650;
-    background-color: var(--background);
-    font-family: 'Josefin Sans';
-    border: '2px solid #000';
-    box-shadow: 24;
-
-}
