@@ -2,11 +2,29 @@ import './App.css';
 import Card from './components/Card';
 import './components/block.css';
 import React from 'react';
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 const Homepage = () => {
   return (
     <div className="App" data-theme='light'>
+      <div className='icon-div'>
+        <hr></hr>
+        <div style={{ display: 'flex', width: '25%', gap: '0.8rem', margin: 'auto' }}>
+
+          <Link style={{ width: '100%' }} to="https://github.com/lkemperm">
+            <FaGithub ></FaGithub>
+          </Link>
+
+          <Link style={{ width: '100%' }} to="https://www.linkedin.com/in/laurenkemperman/">
+
+            <FaLinkedin></FaLinkedin>
+          </Link>
+        </div>
+        <hr></hr>
+
+      </div>
       <div className="header">
         <h1 style={{ fontSize: "3rem", fontWeight: 'bold' }}>Lauren Kemperman</h1>
         <h2>Civic Technologist | Graduate Student @ ATLAS Institute</h2>
