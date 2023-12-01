@@ -16,7 +16,7 @@ const Project = (props:
     const [selected, setSelected] = useState(false);
 
     const styles = {
-        strokeWidth: selected ? "5" : "0.1",
+        strokeWidth: selected ? "1.5" : "0.5",
     };
 
     useEffect(() => {

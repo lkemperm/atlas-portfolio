@@ -56,7 +56,8 @@ const ProjectList = (props: { projects: any; }) => {
                 <Box component="section" sx={{
                     backgroundColor: '#cab99d',
                     p: 2, border: '1px dashed grey',
-                    display: 'flex', textAlign: 'center', fontSize: '1rem'
+                    display: 'flex', textAlign: 'center', fontSize: '1rem', flexWrap: 'wrap',
+                    margin: 'auto', width: 'auto', boxSizing: 'border-box'
                 }}>
                     <div style={{ color: "rgba(17, 9, 2, 0.658)" }}>
                         {getSelectedProjectDetails()}
