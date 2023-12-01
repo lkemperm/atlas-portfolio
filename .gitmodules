@@ -1,0 +1,3 @@
+[submodule "latex-resume"]
+	path = latex-resume
+	url = https://github.com/lkemperm/latex-resume.git
