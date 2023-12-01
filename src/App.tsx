@@ -11,13 +11,13 @@ const Homepage = () => {
     <div className="App" data-theme='light'>
       <div className='icon-div'>
         <hr></hr>
-        <div style={{ display: 'flex', width: '25%', gap: '0.8rem', margin: 'auto' }}>
+        <div style={{ display: 'flex', width: '25%', gap: '0.8rem', margin: 'auto', paddingTop: '1rem' }}>
 
-          <Link style={{ width: '100%' }} to="https://github.com/lkemperm">
+          <Link style={{ width: '100%', minWidth: '3rem' }} to="https://github.com/lkemperm">
             <FaGithub ></FaGithub>
           </Link>
 
-          <Link style={{ width: '100%' }} to="https://www.linkedin.com/in/laurenkemperman/">
+          <Link style={{ width: '100%', minWidth: '3rem' }} to="https://www.linkedin.com/in/laurenkemperman/">
 
             <FaLinkedin></FaLinkedin>
           </Link>
@@ -38,7 +38,7 @@ const Homepage = () => {
         <div className='header'>
 
           <div className='block'>
-            <p style={{ fontWeight: 'lighter', fontSize: "1.2rem", textAlign: "left" }}>My name is Lauren Kemperman and I am a graduate student at ATLAS institute at CU Boulder in Social Impact Technology & Design and Senior Software Engineer at Code for America. I am focused on delivering technology solutions which improve the uptake and user experience, especially for marginalized groups, for accessing essential services like government benefits. I am also interested in exploring how smart technology policy can be used to alleviate issues which impact service design and delivery. My journey at ATLAS, paired with my role at Code for America, is working towards being a more well-rounded technologist in the social impact space by developing and refining my own design practice, and building frameworks to co-design policy and technology with diverse groups of people for long-term impact. </p>
+            <p style={{ fontWeight: 'lighter', fontSize: "1.2rem", textAlign: "left" }}>My name is Lauren Kemperman and I am a graduate student at ATLAS institute at CU Boulder in Social Impact Technology & Design and Senior Software Engineer at Code for America. I am focused on delivering technology solutions which improve the uptake and user experience, especially for marginalized groups, for accessing essential services like government benefits. I am also interested in exploring how smart technology policy can be used to alleviate issues which impact service design and delivery.  </p>
           </div>
         </div>
       </div>

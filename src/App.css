@@ -29,11 +29,12 @@
   gap: 2rem;
   width: 90%;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 svg-container {
   resize: both;
-  min-height: 600px;
+  min-height: 500px;
   display: flex;
   height: 25%;
   width: 25%;
@@ -70,19 +71,12 @@ svg g:hover text {
 
 svg g polygon {
   stroke: #c7b706;
-  stroke-width: 0.2;
+  /* stroke-width: 0.2; */
   /* transition: fill-opacity .5s; */
 }
 
 svg g polygon:hover {
   stroke-width: 1;
-}
-
-svg g text {
-  font-size: 0.15em;
-  fill: black;
-  fill-opacity: 0.7;
-  transition: fill-opacity .5s;
 }
 
 svg path {
@@ -146,6 +140,7 @@ hr {
   width: 90%;
   padding: 0px;
   margin: auto;
+  /* min-width: 300px; */
 }
 
 .project-card-content {
@@ -153,6 +148,7 @@ hr {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-evenly;
+  padding: 1rem;
   /* flex-shrink: 1 0 auto; */
 }
 
@@ -175,13 +171,15 @@ hr {
 
 .hexgrid {
   flex: 1 auto 0;
-  min-width: 450px;
+  min-width: 350px;
 }
 
 .timeline {
   flex: 1 auto 0;
+  padding: 1rem;
 }
 
 .project-details {
   flex: 1 auto 0;
+  padding: 1rem;
 }
